@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style>
+    body {background-color: #ccc;}
+        h2 {
+            position: absolute;
+            left: 20px;
+            font-size: 36px;
+            width: 36px;
+        }
+        canvas {
+            position: absolute;
+            border: 1px solid #ccc;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        #snow {
+            background-color: transparent;;
+        }
+    </style>
+</head>
+<body>
+<h2>雪花与焰火</h2>
+<canvas id="fireworks" width="699" height="550"></canvas>
+<canvas id="snow" width="699" height="550"></canvas>
+
+<script src="particle.js"></script>
+</body>
+</html>
